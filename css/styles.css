@@ -541,8 +541,6 @@ ul {
   cursor: pointer;
   border-radius: 4px;
   gap: 10px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
-    0 3px 1px 0 rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   width: 69px;
@@ -551,13 +549,11 @@ ul {
   z-index: 1;
   position: absolute;
 }
-
-.mysvg {
-  transform: translateX(60px) translateY(45px);
-  position: relative;
-  z-index: 0;
-  position: absolute;
+.all-butoon:hover {
+  background-color: #404bbf;
+  color: WHITE;
 }
+
 .btn1-position {
   margin-left: 69px;
 }
@@ -575,8 +571,6 @@ ul {
   cursor: pointer;
   border-radius: 4px;
   gap: 10px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
-    0 3px 1px 0 rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   width: 116px;
@@ -596,15 +590,13 @@ ul {
   cursor: pointer;
   border-radius: 4px;
   gap: 10px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
-    0 3px 1px 0 rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   width: 78px;
   height: 48px;
 }
 
-.desing {
+.design {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -617,8 +609,6 @@ ul {
   cursor: pointer;
   border-radius: 4px;
   gap: 10px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
-    0 3px 1px 0 rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   width: 101px;
@@ -638,8 +628,6 @@ ul {
   cursor: pointer;
   border-radius: 4px;
   gap: 10px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
-    0 3px 1px 0 rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
   width: 126px;
@@ -702,6 +690,7 @@ li {
   margin-top: 32px;
   width: 360px;
   height: 56px;
+  padding: 16px;
 }
 
 .footer-title {
@@ -868,4 +857,27 @@ li {
   display: flex;
   justify-content: start;
   gap: 143px;
+}
+.project-card2 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Tranziție pentru efectul de tranziție lin al umbrei */
+  transition: box-shadow 0.3s ease;
+}
+.project-card2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.all-butoon:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.web-site:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.app:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.design:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.marketing:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
